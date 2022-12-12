@@ -1,0 +1,43 @@
+*{
+box-sizing:border-box;
+}
+.mainContainer{
+background-color:#13191a;
+width:55vh;
+height:500px;
+margin:auto;
+transform:translateY(10vh);
+display:flex;
+flex-direction:column;
+justify-content:center;
+border-radius:4vh;
+box-shadow:2px 0px 3px 2px black;
+}
+.loginContainer{
+width:50vh;
+height:60vh;
+margin:auto;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+}
+.contextTitle{
+font-size:35px;
+color:white;
+}
+.contextStyle{
+font-size:1.5vh;
+color:rgb(143, 155, 158);
+}
+.loginInput{
+height:6vh;
+border-radius:1vh;
+}
+.loginSubmit{
+width:30vh;
+height:4vh;
+transform:translateX(10vh);
+background-image:linear-gradient(to right,#34b1eb,#24a7e3,#044663);
+border:none;
+}
